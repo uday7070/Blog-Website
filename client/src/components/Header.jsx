@@ -33,6 +33,8 @@ export default function Header() {
         <AiOutlineSearch />
       </Button>
 
+      <Navbar.Toggle />
+
       <Navbar.Collapse>
         <Navbar.Link active={path === "/"} as={"div"}>
           <Link to="/">Home</Link>
